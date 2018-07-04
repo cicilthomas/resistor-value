@@ -1,0 +1,9 @@
+{
+  "name": "Resistor Value - Find resistance from color bands",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "aws-sdk": "^2.200.0"
+  }
+}

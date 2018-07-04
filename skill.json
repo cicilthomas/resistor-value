@@ -1,0 +1,157 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Say the color bands of a resistor and Alexa will tell you its resistance.",
+          "examplePhrases": [
+            "Alexa, open resistor value",
+            "brown orange blue",
+            "brown black blue gold"
+          ],
+          "keywords": [
+            "resistor",
+            "resistance",
+            "ohm",
+            "ohms",
+            "color",
+            "bands",
+            "resistor",
+            "value",
+            "current",
+            "voltage",
+            "volt",
+            "R"
+          ],
+          "name": "Resistor Value - Find resistance from color bands",
+          "smallIconUri": "",
+          "description": "Now you can ask Alexa to find the resistance of a resistor. Open the skill and just say the three colors or four colors including the tolerance band.\n\nCurrently only four band resistors are supported.",
+          "largeIconUri": ""
+        },
+        "en-CA": {
+          "summary": "Say the color bands of a resistor and Alexa will tell you its resistance.",
+          "examplePhrases": [
+            "Alexa, open resistor value",
+            "brown orange blue",
+            "brown black blue gold"
+          ],
+          "keywords": [
+            "resistor",
+            "resistance",
+            "ohm",
+            "ohms",
+            "color",
+            "bands",
+            "resistor",
+            "value",
+            "current",
+            "voltage",
+            "volt",
+            "R"
+          ],
+          "name": "Resistor Value - Find resistance from color bands",
+          "smallIconUri": "",
+          "description": "Now you can ask Alexa to find the resistance of a resistor. Open the skill and just say the three colors or four colors including the tolerance band.\n\nCurrently only four band resistors are supported.",
+          "largeIconUri": ""
+        },
+        "en-IN": {
+          "summary": "Say the color bands of a resistor and Alexa will tell you its resistance.",
+          "examplePhrases": [
+            "Alexa, open resistor value",
+            "brown orange blue",
+            "brown black blue gold"
+          ],
+          "keywords": [
+            "resistor",
+            "resistance",
+            "ohm",
+            "ohms",
+            "color",
+            "bands",
+            "resistor",
+            "value",
+            "current",
+            "voltage",
+            "volt",
+            "R"
+          ],
+          "name": "Resistor Value - Find resistance from color bands",
+          "smallIconUri": "",
+          "description": "Now you can ask Alexa to find the resistance of a resistor. Open the skill and just say the three colors or four colors including the tolerance band.\n\nCurrently only four band resistors are supported.",
+          "largeIconUri": ""
+        },
+        "en-AU": {
+          "summary": "Say the color bands of a resistor and Alexa will tell you its resistance.",
+          "examplePhrases": [
+            "Alexa, open resistor value",
+            "brown orange blue",
+            "brown black blue gold"
+          ],
+          "keywords": [
+            "resistor",
+            "resistance",
+            "ohm",
+            "ohms",
+            "color",
+            "bands",
+            "resistor",
+            "value",
+            "current",
+            "voltage",
+            "volt",
+            "R"
+          ],
+          "name": "Resistor Value - Find resistance from color bands",
+          "smallIconUri": "",
+          "description": "Now you can ask Alexa to find the resistance of a resistor. Open the skill and just say the three colors or four colors including the tolerance band.\n\nCurrently only four band resistors are supported.",
+          "largeIconUri": ""
+        },
+        "en-GB": {
+          "summary": "Say the color bands of a resistor and Alexa will tell you its resistance.",
+          "examplePhrases": [
+            "Alexa, open resistor value",
+            "brown orange blue",
+            "brown black blue gold"
+          ],
+          "keywords": [
+            "resistor",
+            "resistance",
+            "ohm",
+            "ohms",
+            "color",
+            "bands",
+            "resistor",
+            "value",
+            "current",
+            "voltage",
+            "volt",
+            "R"
+          ],
+          "name": "Resistor Value - Find resistance from color bands",
+          "smallIconUri": "",
+          "description": "Now you can ask Alexa to find the resistance of a resistor. Open the skill and just say the three colors or four colors including the tolerance band.\n\nCurrently only four band resistors are supported.",
+          "largeIconUri": ""
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "1) Open the skill \"Alexa, open resistor value\".\nThe skill should respond with a welcome message.\n\n2) Once skill is open, say three resistor color bands\nEx: \nBrown black blue\norange orange black\nThe skill should respond with correct resistor value.\n\n3) You can also say 4 colors, for which the skill should return the resistance as well as tolerance.\n(silver and gold are the only accepted 4th color)\nEx: \norange orange black gold\nbrown black blue silver\n\n4) For one shot questions you can ask\n\"Alexa, ask resistor value brown brown red gold\"",
+      "category": "UNIT_CONVERTERS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

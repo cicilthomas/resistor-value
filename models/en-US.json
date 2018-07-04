@@ -1,0 +1,140 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "resistor value",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "ResistorBands",
+          "slots": [
+            {
+              "name": "band_one",
+              "type": "RESISTOR_COLOR_BANDS"
+            },
+            {
+              "name": "band_two",
+              "type": "RESISTOR_COLOR_BANDS"
+            },
+            {
+              "name": "band_three",
+              "type": "RESISTOR_COLOR_BANDS"
+            },
+            {
+              "name": "tolerance_band",
+              "type": "RESISTOR_COLOR_BANDS"
+            }
+          ],
+          "samples": [
+            "{band_one} {band_two} {band_three} and {tolerance_band}",
+            "{band_one} {band_two} {band_three} {tolerance_band}",
+            "{band_one} {band_two} and {band_three}",
+            "{band_one} {band_two} {band_three}",
+            "yes  {band_one} {band_two} {band_three}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "black",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "brown",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "red",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "orange",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "yellow",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "green",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "blue",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "violet",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "gray",
+                "synonyms": [
+                  "grey"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "white",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "gold",
+                "synonyms": [
+                  "golden"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "silver",
+                "synonyms": []
+              }
+            }
+          ],
+          "name": "RESISTOR_COLOR_BANDS"
+        }
+      ]
+    }
+  }
+}
